@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap");
+
+@import "screen/mainscreen.css";
+
+* {
+  font-family: Consolas;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(
+    #ffbb00 50%,
+    rgb(0, 114, 143) 50%,
+    rgb(0, 114, 143) 100%
+  );
+}
