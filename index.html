@@ -10,6 +10,7 @@
     <title>Profile_KU</title>
   </head>
   <body>
+    <img src="images/backgound-gradient.jpg" class="background-gradient" />
     <main class="mainscreen">
       <div class="mainscreen-card">
         <h2 class="mainscreen-card__title">Ku</h2>
@@ -38,5 +39,17 @@
       src="https://kit.fontawesome.com/730480915e.js"
       crossorigin="anonymous"
     ></script>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+      VanillaTilt.init(
+        document.querySelectorAll(
+          ".mainscreen-card, .mainscreen-card__reverse"
+        ),
+        {
+          max: 25,
+          speed: 500,
+        }
+      );
+    </script>
   </body>
 </html>

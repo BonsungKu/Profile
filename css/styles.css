@@ -10,9 +10,11 @@ body {
   display: flex;
   justify-content: center;
   min-height: 100vh;
-  background: linear-gradient(
-    #ffbb00 50%,
-    rgb(0, 114, 143) 50%,
-    rgb(0, 114, 143) 100%
-  );
+}
+
+.background-gradient {
+  display: flex;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
 }
