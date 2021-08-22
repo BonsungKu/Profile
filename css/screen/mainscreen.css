@@ -1,9 +1,16 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
 .mainscreen {
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
-  /*backface-visibility: hidden;*/
-  position: relative;
+  top: 25%;
+  left: 25%;
+  right: 25%;
 }
 
 .mainscreen-card {
@@ -15,11 +22,11 @@
   background-color: rgba(255, 255, 255, 0.1);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
   border-radius: 1%;
-  border-top: 1px solid white;
-  border-left: 1px solid white;
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+  border-left: 1px solid rgba(255, 255, 255, 0.4);
   backdrop-filter: blur(5px);
-  margin: 50px;
-  margin-left: 100px;
+  margin-right: 50px;
+  position: relative;
 }
 
 .mainscreen-card__title {
@@ -30,8 +37,8 @@
   background-color: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(5px);
   border-radius: 10px;
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
-  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
 }
 .mainscreen-card__photo {
   width: 150px;
@@ -59,8 +66,8 @@
   width: 250px;
   height: 400px;
   border-radius: 1%;
-  border-top: 1px solid white;
-  border-left: 1px solid white;
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+  border-left: 1px solid rgba(255, 255, 255, 0.4);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -69,7 +76,6 @@
   background-color: rgba(255, 255, 255, 0.1);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(5px);
-  margin: 50px 100px 50px 0px;
 }
 .speak-lang,
 .lang-list,
