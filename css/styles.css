@@ -15,6 +15,6 @@ body {
 .background-gradient {
   display: flex;
   position: absolute;
-  width: 100vw;
-  height: 100vh;
+  max-width: 100%;
+  height: auto;
 }
